@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
+
+body > main {
+  -ms-overflow-x: hidden; }
+  @supports (-ms-ime-align: auto) {
+    body > main {
+      overflow: hidden; } }
+
+figure {
+  margin: 0;
+  overflow: hidden; }
+  figure img {
+    width: 100%; }
+
+.header {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  transition: all 0.5s ease; }
+
+/*# sourceMappingURL=common.css.map */

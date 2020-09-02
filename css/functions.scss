@@ -1,0 +1,87 @@
+@mixin tablet{
+	@media screen and (max-width: 1023px) {
+		@content;
+	}
+}
+@mixin mobile{
+	@media screen and (max-width: 767px) {
+		@content;
+	}
+}
+@mixin ipadPortrail{
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+		@content;
+	}
+}
+@mixin ipadLandscape{
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		@content;
+	}
+}
+@mixin responsive($width){
+	@media screen and (max-width: $width){
+		@content;
+	}
+}
+@mixin fillPos{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+@mixin flexDisplay($pos1, $pos2){
+	display: flex;
+	justify-content: $pos1;
+	align-items: $pos2;
+}
+@mixin atag($color, $fz){
+	a, a:hover, a:active, a:focus, a:visited{
+		text-decoration: none;
+		color: $color;
+		font-size: $fz;
+		@content;
+	}
+}
+@mixin arrow($width, $height, $direction, $hi, $color){
+	span{
+		width: $width;
+		height: $height;
+		position: relative;
+		z-index: 0;
+		transition: all 0.5s ease;
+		&::before{
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			height: $hi;
+			background-color: $color;
+			transition: all 0.5s ease;
+			transform-origin: $direction bottom;
+			transform: translateY(-50%) rotate(45deg);
+		}
+		&::after{
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			height: $hi;
+			background-color: $color;
+			transition: all 0.5s ease;
+			transform-origin: $direction top;
+			transform: translateY(-50%) rotate(-45deg);
+		}
+	}
+	&:hover span{
+		transform: translateX(10px);
+		&::before{
+			transform: translateY(-50%) rotate(30deg);
+		}
+		&::after{
+			transform: translateY(-50%) rotate(-30deg);
+		}
+	}
+}
