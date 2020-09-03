@@ -732,7 +732,11 @@ h2{
 	}
 	@include mobile{
 		&__content{
+			align-items: flex-start;
 			flex-flow: column nowrap;
+			a{
+				margin-bottom: 15px;
+			}
 		}
 	}
 }

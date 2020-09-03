@@ -576,6 +576,9 @@ h2 {
       color: #fff; }
   @media screen and (max-width: 767px) {
     .footer__content {
-      flex-flow: column nowrap; } }
+      align-items: flex-start;
+      flex-flow: column nowrap; }
+      .footer__content a {
+        margin-bottom: 15px; } }
 
 /*# sourceMappingURL=common.css.map */
