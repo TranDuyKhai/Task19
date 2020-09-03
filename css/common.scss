@@ -87,6 +87,9 @@ h2{
 			text-align: center;
 			display: inline-block;
 			margin: 0 10px;
+			&:hover{
+				opacity: 0.8;
+			}
 		}
 	}
 	&__hamburger{
@@ -405,6 +408,9 @@ h2{
 					padding: 25px 0;
 					display: block;
 					margin-top: 40px;
+					&:hover{
+						opacity: 0.8;
+					}
 				}
 			}
 		}
@@ -448,6 +454,9 @@ h2{
 				}
 				a{
 					@include fillPos;
+					&:hover{
+						opacity: 0.8;
+					}
 				}
 			}
 			&.right{
@@ -505,6 +514,9 @@ h2{
 			}
 			a{
 				@include fillPos;
+				&:hover{
+					opacity: 0.8;
+				}
 			}
 		}
 	}
@@ -604,6 +616,9 @@ h2{
 			border: 1px solid #fff;
 			padding: 15px 0;
 			text-align: center;
+			&:hover{
+				opacity: 0.8;
+			}
 		}
 	}
 	&__candidate{
