@@ -574,5 +574,8 @@ h2 {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.3rem;
       color: #fff; }
+  @media screen and (max-width: 767px) {
+    .footer__content {
+      flex-flow: column nowrap; } }
 
 /*# sourceMappingURL=common.css.map */

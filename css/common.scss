@@ -730,4 +730,9 @@ h2{
 			color: #fff;
 		}
 	}
+	@include mobile{
+		&__content{
+			flex-flow: column nowrap;
+		}
+	}
 }
