@@ -51,6 +51,7 @@ $(function(){
 		autoplaySpeed: 2000,
 		arrows: false,
 		asNavFor: '.special__full-info',
+		focusOnSelect: true,
 		responsive: [
 			{
 				breakpoint: 1023,

@@ -71,6 +71,8 @@ h2 {
       text-align: center;
       display: inline-block;
       margin: 0 10px; }
+      .header__link a:hover {
+        opacity: 0.8; }
   .header__hamburger {
     display: none;
     width: 105px;
@@ -322,6 +324,8 @@ h2 {
         padding: 25px 0;
         display: block;
         margin-top: 40px; }
+        .block-with-header__content__child__about-content a:hover {
+          opacity: 0.8; }
 .block-with-header.growth .block-with-header__content {
   padding: 115px 0; }
   .block-with-header.growth .block-with-header__content__child {
@@ -361,6 +365,8 @@ h2 {
         right: 0;
         bottom: 0;
         left: 0; }
+        .block-with-header.growth .block-with-header__content__child--link a:hover {
+          opacity: 0.8; }
     .block-with-header.growth .block-with-header__content__child.right {
       min-height: 420px; }
       .block-with-header.growth .block-with-header__content__child.right > div {
@@ -411,6 +417,8 @@ h2 {
       right: 0;
       bottom: 0;
       left: 0; }
+      .block-with-header.recruit .block-with-header__content__child a:hover {
+        opacity: 0.8; }
 @media screen and (max-width: 1023px) {
   .block-with-header__content__child__about-content {
     top: 0;
@@ -484,6 +492,8 @@ h2 {
       border: 1px solid #fff;
       padding: 15px 0;
       text-align: center; }
+      .person-and-job__introduce a:hover {
+        opacity: 0.8; }
   .person-and-job__candidate {
     max-width: calc(100% - 570px);
     width: 100%; }
