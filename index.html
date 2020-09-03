@@ -21,8 +21,7 @@
 	<link href="assets/plugins/slick/slick-theme.css" rel="stylesheet">
 	<link href="assets/plugins/odometer/odometer-theme-default.css" rel="stylesheet">
 
-	<!-- <link href="css/common.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet"> -->
+	<link href="css/common.css" rel="stylesheet">
 
 	<title>Meiwa</title>
 
@@ -34,19 +33,25 @@
 </head>
 <body>
 	<header class="header">
-		<h1 class="header__logo"><a href="index.html">LOGO RECRUIT SITE</a></h1>
-		<div class="header__menu">
-			<ul>
-				<li><a href="#">MENU</a></li>
-				<li><a href="#">MENU</a></li>
-				<li><a href="#">MENU</a></li>
-				<li><a href="#">MENU</a></li>
-				<li><a href="#">MENU</a></li>
-			</ul>
-		</div>
-		<div class="header__link">
-			<a href="#">MY PAGE</a>
-			<a href="#">ENTRY</a>
+		<div class="container">
+			<div class="header__menu">
+				<h1><a href="index.html">LOGO RECRUIT SITE</a></h1>
+				<ul>
+					<li><a href="#">MENU</a></li>
+					<li class="slash">/</li>
+					<li><a href="#">MENU</a></li>
+					<li class="slash">/</li>
+					<li><a href="#">MENU</a></li>
+					<li class="slash">/</li>
+					<li><a href="#">MENU</a></li>
+					<li class="slash">/</li>
+					<li><a href="#">MENU</a></li>
+				</ul>
+			</div>
+			<div class="header__link">
+				<a href="#">MY PAGE</a>
+				<a href="#">ENTRY</a>
+			</div>
 		</div>
 		<div class="header__hamburger">
 			<span class="header__hamburger__line header__hamburger__line--one"></span>
@@ -57,62 +62,121 @@
 	<main>
 		<section class="mv">
 			<figure><img src="images/img_mv.jpg" alt=""></figure>
-			<figure class="mv_text"><img src="images/img_text-on-mv.png" alt=""></figure>
+			<figure class="mv__text"><img src="images/img_text-on-mv.png" alt=""></figure>
 		</section>
 		<section class="special">
-			<div class="special__block special__block--one">
-				<h2>SPECIAL #1</h2>
-				<div class="special__block__content">
-					<p>成長秘話対談</p>
-					<p>この文章はダミーです。
-						文字の大きさ、量、字間、行間等を確認するために入れています。
-						<span>—立ちはだかった壁、それを乗り越えた自信と成長—</span></p>
+			<div class="special__full-info">
+				<div class="special__full-info__block">
+					<div class="special__full-info__block__content">
+						<h2><span class="text">SPECIAL #</span>1</h2>
+						<div>
+							<p class="bg-grey">成長秘話対談</p>
+							<p class="big-size">この文章はダミーです。<br>文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+							<p class="small-size">—立ちはだかった壁、それを乗り越えた自信と成長—</p>
+						</div>
+					</div>
+					<figure><img src="images/img_special_01.jpg"></figure>
 				</div>
-				<figure><img src="images/img_special_01.jpg"></figure>
+				<div class="special__full-info__block">
+					<div class="special__full-info__block__content">
+						<h2><span class="text">SPECIAL #</span>2</h2>
+						<div>
+							<p class="bg-grey">成長秘話対談</p>
+							<p class="big-size">この文章はダミーです。<br>文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+							<p class="small-size">—立ちはだかった壁、それを乗り越えた自信と成長—</p>
+						</div>
+					</div>
+					<figure><img src="images/img_special_02.jpg"></figure>
+				</div>
+				<div class="special__full-info__block">
+					<div class="special__full-info__block__content">
+						<h2><span class="text">SPECIAL #</span>3</h2>
+						<div>
+							<p class="bg-grey">成長秘話対談</p>
+							<p class="big-size">この文章はダミーです。<br>文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+							<p class="small-size">—立ちはだかった壁、それを乗り越えた自信と成長—</p>
+						</div>
+					</div>
+					<figure><img src="images/img_special_03.jpg"></figure>
+				</div>
 			</div>
-			<div class="special__block special__block--two">
-				<h2>SPECIAL #1</h2>
-				<div class="special__block__content">
-					<p>成長秘話対談</p>
-					<p>この文章はダミーです。
-						文字の大きさ、量、字間、行間等を確認するために入れています。
-						<span>—立ちはだかった壁、それを乗り越えた自信と成長—</span></p>
+			<div class="special__mini-info">
+				<div class="special__mini-info__child active">
+					<h2><span>#</span>2</h2>
+					<p><span>この会社で働いて得られたものは？</span><span class="small-size">社員の声</span></p>
 				</div>
-				<figure><img src="images/img_special_02.jpg"></figure>
-			</div>
-			<div class="special__block special__block--three">
-				<h2>SPECIAL #1</h2>
-				<div class="special__block__content">
-					<p>成長秘話対談</p>
-					<p>この文章はダミーです。
-						文字の大きさ、量、字間、行間等を確認するために入れています。
-						<span>—立ちはだかった壁、それを乗り越えた自信と成長—</span></p>
+				<div class="special__mini-info__child">
+					<h2><span>#</span>3</h2>
+					<p><span>若手が感じる〇〇〇の働く環境と風土</span><span class="small-size">ルーキー座談会</span></p>
 				</div>
-				<figure><img src="images/img_special_03.jpg"></figure>
+				<div class="special__mini-info__child">
+					<h2><span>#</span>1</h2>
+					<p><span>この文章はダミーです。</span><span class="small-size">成長秘話対談</span></p>
+				</div>
 			</div>
 		</section>
 		<section class="block-with-header">
-			<div class="block-with-header__header">
-				<h2>ABOUT <span>〇〇〇について</span></h2>
-			</div>
+			<h2  class="block-with-header__header">ABOUT <span>〇〇〇について</span></h2>
 			<div class="block-with-header__content">
 				<div class="block-with-header__content__child">
-					<figure><img src="images/img_about_01.jpg" alt=""></figure>
-					<h3><span>〇〇〇がこだわる</span><span>５つのポイント</span></h3>
-					<a href="#">More</a>					
+					<figure class="block-with-header__content__child__about-img"><img src="images/img_about_01.jpg" alt=""></figure>
+					<div class="block-with-header__content__child__about-content">
+						<h3><span>〇〇〇がこだわる</span><span>５つのポイント</span></h3>
+						<a href="#">More</a>
+					</div>
 				</div>
 				<div class="block-with-header__content__child">
-					<figure><img src="images/img_about_02.jpg" alt=""></figure>
-					<h3><span>こだわりを実現する</span><span>モノづくりの方法</span></h3>
-					<a href="#">More</a>					
+					<figure class="block-with-header__content__child__about-img"><img src="images/img_about_02.jpg" alt=""></figure>
+					<div class="block-with-header__content__child__about-content">
+						<h3><span>こだわりを実現する</span><span>モノづくりの方法</span></h3>
+						<a href="#">More</a>
+					</div>
 				</div>
 			</div>
 		</section>
-		<section class="person-and-job"></section>
-		<section class="block-with-header growth">
-			<div class="block-with-header__header">
-				<h2>GROWTH <span>キャリア紹介</span></h2>
+		<section class="person-and-job">
+			<div class="person-and-job__introduce">
+				<h2><span>PERSON</span><span>&</span><span>JOB</span></h2>
+				<p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+				<a href="">More</a>
 			</div>
+			<div class="person-and-job__candidate">
+				<div class="person-and-job__candidate__child">
+					<figure><img src="images/img_person_01.jpg" alt=""></figure>
+					<div class="person-and-job__candidate__child__info">
+						<h3>01</h3>
+						<p class="jp-name">名前花子</p>
+						<p class="en-name">NAME HANAKO</p>
+					</div>
+				</div>
+				<div class="person-and-job__candidate__child">
+					<figure><img src="images/img_person_02.jpg" alt=""></figure>
+					<div class="person-and-job__candidate__child__info">
+						<h3>02</h3>
+						<p class="jp-name">名前太郎</p>
+						<p class="en-name">NAME TAROU</p>
+					</div>
+				</div>
+				<div class="person-and-job__candidate__child">
+					<figure><img src="images/img_person_03.jpg" alt=""></figure>
+					<div class="person-and-job__candidate__child__info">
+						<h3>03</h3>
+						<p class="jp-name">名前太郎</p>
+						<p class="en-name">NAME TAROU</p>
+					</div>
+				</div>
+				<div class="person-and-job__candidate__child">
+					<figure><img src="images/img_person_04.jpg" alt=""></figure>
+					<div class="person-and-job__candidate__child__info">
+						<h3>04</h3>
+						<p class="jp-name">名前花子</p>
+						<p class="en-name">NAME HANAKO</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="block-with-header growth">
+			<h2 class="block-with-header__header">GROWTH <span>キャリア紹介</span></h2>
 			<div class="container">
 				<div class="block-with-header__content">
 					<div class="block-with-header__content__child">
@@ -129,30 +193,30 @@
 							<a href="#"></a>
 						</div>
 					</div>
-					<div class="block-with-header__content__child">
+					<div class="block-with-header__content__child right">
 						<figure><img src="images/img_growth_03.jpg" alt=""></figure>
-						<p>〇〇〇の社会人生活を</p>
-						<p>のぞく</p>
-						<span></span>
+						<div>
+							<p>〇〇〇の社会人生活を</p>
+							<p>のぞく</p>
+							<span></span>
+						</div>
 						<a href="#"></a>					
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="block-with-header recruit">
-			<div class="block-with-header__header">
-				<h2>RECRUIT <span>採用情報</span></h2>
-			</div>
+			<h2 class="block-with-header__header">RECRUIT <span>採用情報</span></h2>
 			<div class="container">
 				<div class="block-with-header__content">
 					<div class="block-with-header__content__child">
-						<img src="images/icon_recruit_01.jpg" alt="">
+						<img src="images/icon_recruit_01.png" alt="">
 						<p>募集要項</p>
 						<span></span>
 						<a href="#"></a>
 					</div>
 					<div class="block-with-header__content__child">
-						<img src="images/icon_recruit_02.jpg" alt="">
+						<img src="images/icon_recruit_02.png" alt="">
 						<p>福利厚生</p>
 						<span></span>
 						<a href="#"></a>					
