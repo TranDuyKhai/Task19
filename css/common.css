@@ -419,8 +419,8 @@ h2 {
       right: 0;
       bottom: 0;
       left: 0; }
-      .block-with-header.recruit .block-with-header__content__child a:hover {
-        opacity: 0.8; }
+    .block-with-header.recruit .block-with-header__content__child:hover {
+      opacity: 0.8; }
 @media screen and (max-width: 1023px) {
   .block-with-header__content__child__about-content {
     top: 0;
